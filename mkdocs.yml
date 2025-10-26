@@ -1,5 +1,5 @@
 site_name: My Docs
-site_url: https://sitename.example
+site_url: https://3rd-Son.github.io/mkdocs-material-docs-example
 
 nav:
   - Home: index.md
