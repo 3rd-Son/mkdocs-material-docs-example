@@ -166,9 +166,4 @@ This page demonstrates:
 
 > 💬 *If you want documentation that feels like a product, not an afterthought, I can help you design it.*
 
----
-
-## A Little Personality
-
-Outside of code and documentation, I to play piano, saxophone or watch documentaries on Youtube
 
