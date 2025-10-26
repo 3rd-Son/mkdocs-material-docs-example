@@ -1,13 +1,11 @@
-site_name: My Docs
+site_name: Victory Nnaji | Devrel Engineer | AI Engineer | Technical Writer
 site_url: https://3rd-Son.github.io/mkdocs-material-docs-example
 
 nav:
   - Home: index.md
+  - About-Me: about-me.md
   - Code Examples: code-examples.md
-  - Content Tabs: content-tabs.md
-  - Admonitions: admonitions.md
   - Diagram Examples: diagram-examples.md
-  - About: about.md
 
  
 theme:
@@ -16,10 +14,11 @@ theme:
     text: Merriweather Sans
     code: Red Hat Mono
 
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
+  # logo: assets/logo.png
+  # favicon: assets/favicon.ico
   features:
     - navigation.footer
+    - content.code.copy
 
   palette: 
     # Dark Mode
