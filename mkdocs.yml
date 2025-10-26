@@ -1,0 +1,72 @@
+site_name: My Docs
+site_url: https://sitename.example
+
+nav:
+  - Home: index.md
+  - Code Examples: code-examples.md
+  - Content Tabs: content-tabs.md
+  - Admonitions: admonitions.md
+  - Diagram Examples: diagram-examples.md
+  - About: about.md
+
+ 
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  features:
+    - navigation.footer
+
+  palette: 
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+  
+# adding emojis
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+extra:
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/3rdSon__
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@3rdSon
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/3rdson___
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/3rdson/
+    - icon: fontawesome/brands/hashnode
+      link: https://hashnode.com/@3rdSon
+
+copyright: Copyright &copy; 2025 Victory Nnaji
